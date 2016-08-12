@@ -1,0 +1,24 @@
+
+<article class="main">
+  <h1>{{home.appCtrl.appName}}</h1>
+  <span uib-dropdown on-toggle="toggled(open)">
+    <a href id="simple-dropdown" uib-dropdown-toggle>
+      Click me for a dropdown, yo!
+    </a>
+    <ul class="dropdown-menu" uib-dropdown-menu aria-labelledby="simple-dropdown">
+      <li>
+        <a href>UK</a>
+      </li>
+      <li>
+        <a href>Spain</a>
+      </li>
+    </ul>
+  </span>
+  <div uib-alert dismiss-on-timeout="5000" close="">Hello!</div>
+  <p>Hello, {{ home.user }}</p>
+  <p class="lead"><img src="assets/images/yeoman.png" alt="Im Yeoman"><br>apps.</p>
+</article>
+
+<aside>Aside</aside>
+
+
