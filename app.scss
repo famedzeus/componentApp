@@ -1,0 +1,20 @@
+section {
+  width:80%;
+  margin:auto;
+  header {
+    font-weight: bold;
+    font-size:150%;
+  }
+  article.main {
+    width:70%;
+    float:left;
+    border:1px SOLID #000000;
+    padding:10px;
+  }
+  aside {
+    width:30%;
+    float:right;
+    border:1px SOLID #000000;
+    padding:10px;
+  }
+}
